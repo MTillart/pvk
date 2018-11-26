@@ -19,8 +19,8 @@ _Kirjeldus:_
 _Kirjeldus:_ 
 
 ##Kasutatav tarkvara
-    -[PHP Storm](https://www.jetbrains.com/phpstorm/)
-    -[PHP Storm](https://www.jetbrains.com/phpstorm/)
+ - [PHP Storm](https://www.jetbrains.com/phpstorm/)
+ - [PHP Storm](https://www.jetbrains.com/phpstorm/)
 
 Koostöös:
     
