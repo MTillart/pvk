@@ -3,7 +3,7 @@
 
 **Projekti nimi:**
 
-Description: 
+_Kirjeldus:_ 
 
 **Sisukord:**
     1.teema1
@@ -12,12 +12,19 @@ Description:
 
 **Kuidas installida!**
 
+_Kirjeldus:_ 
 
 **Kuidas kasutada**
 
+_Kirjeldus:_ 
+
 ##Kasutatav tarkvara
-[PHP Storm](https://www.jetbrains.com/phpstorm/)
-[PHP Storm](https://www.jetbrains.com/phpstorm/)
+    -[PHP Storm](https://www.jetbrains.com/phpstorm/)
+    -[PHP Storm](https://www.jetbrains.com/phpstorm/)
 
 Koostöös:
     
+
+Other languages
+
+    -[README](readme.en.md)
