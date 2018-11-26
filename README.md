@@ -27,4 +27,4 @@ Koostöös:
 
 Other languages
 
-    -[README](readme.en.md)
+ -[README](https://github.com/MTillart/pvk/edit/master/README.md)
