@@ -1,0 +1,18 @@
+.container{
+    background: white;
+    width: 100%;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+
+.left{
+    background-color: antiquewhite;
+    width: 65%;
+    float: left;
+}
+.right{
+    background-color: azure;
+    width: 35%;
+
+
+}
