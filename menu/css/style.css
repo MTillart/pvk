@@ -1,19 +1,26 @@
 .container{
     background: white;
-    width: 100%;
+    width: 50%;
     margin: 0 auto;
     border: 1px solid black;
 
-}
 
-.left{
-    background-color: antiquewhite;
-    width: 65%;
-    float: left;
 }
-.right{
-    background-color: azure;
-    width: 35%;
+#collapseOne, #collapseTwo, #collapseThree, #collapseFour, .card-header{
+    width: 50%;
+    align-self: center;
+}
+.card-header{
+    text-align: center;
+    color: aqua;
 
+}
+a{
+    color: #666666;
+    background-color: cyan;
+    padding: 15px;
+    font-size: 25px;
+}
+h3{
 
 }
