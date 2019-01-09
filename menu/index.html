@@ -3,31 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-    <div class="container">
-        <div class="left"><h1 class="text">Show me</h1></div>
-        <div class="right"><h1 class="name">Right minded</h1></div>
-    </div>
-    <div class="container-fluid">
-        <div class="navbar-header"><a href="https://tkhk.siseveeb.ee" class="navbar-brand" rel="tooltip" title="Avaleht">Tartu Kutsehariduskeskus</a>
+    <div class="accordion" id="accordion">
+        <div class="card">
+            <div class="card-header">
+                <a href="#collapseOne" data-toggle="collapse" class="card-link">Praed</a>
+            </div>
+            <div id="collapseOne" class="collapse show" data-parent="#accordion">
+                <div class="card-body">
+                    <ul>
+                        <li class="praad1">Praad 1</li>
+                        <li class="praad2">Praad 2</li>
+                        <li class="praad3">Praad 3</li>
+                        <li class="praad4">Praad 4</li>
+                    </ul>
+
+                </div>
+            </div>
         </div>
-    </div></nav><div id="main_container" class="container-fluid"><div class="row"><div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 fluid-print"><div class="main"><div id="program_content_div" class="clear"><div class="row">
-        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-            <div id="P"><div class="panel panel-default">
-                <div class="panel-heading text-center"><h3><strong>PRAED</strong></h3></div><ul class="diner-section-ul list-group"><li class="list-group-item" ><h2>Guljašš<span class="label label-info pull-right">2,70€</span><br/><small>sealiha kastmes, lisand, salat, leib</small><div class="clearfix"></div></h2></li><li class="list-group-item" ><h2>Praetud kala<span class="label label-info pull-right">2,70€</span><br/><small>Kala.lisand,kaste,ksalat,leib</small><div class="clearfix"></div></h2></li><li class="list-group-item" ><h2>Guljašš 1/2<span class="label label-info pull-right">1,45€</span><br/><small>sealiha kastmes, lisand, salat, leib</small><div class="clearfix"></div></h2></li><li class="list-group-item" ><h2>Kartul, kaste, salat, leib<span class="label label-info pull-right">1,38€</span><div class="clearfix"></div></h2></li></ul></div></div>
-        </div>
-        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-            <div id="S"><div class="panel panel-default">
-                <div class="panel-heading text-center"><h3><strong>SUPID</strong></h3></div><ul class="diner-section-ul list-group"><li class="list-group-item" ><h2>Kana-riisisupp<span class="label label-info pull-right">1,10€</span><br/><small>supp, leib</small><div class="clearfix"></div></h2></li></ul></div></div>
-            <div id="M"><div class="panel panel-default">
-                <div class="panel-heading text-center"><h3><strong>MAGUSTOIDUD</strong></h3></div><ul class="diner-section-ul list-group"><li class="list-group-item" ><h2>Kohupiimavorm kisselliga<span class="label label-info pull-right">1,10€</span><div class="clearfix"></div></h2></li></ul></div></div>
-            <div id="J"><div class="panel panel-default">
-                <div class="panel-heading text-center"><h3><strong>JOOGID</strong></h3></div><div class="container-fluid"><div class="row"><ul class="diner-section-ul col-lg-6 col-md-6 col-sm-6 list-group"><li class="list-group-item" ><h2>Mahl<span class="label label-info pull-right">0,60€</span><div class="clearfix"></div></h2></li><li class="list-group-item" ><h2>Piim<span class="label label-info pull-right">0,30€</span><div class="clearfix"></div></h2></li><li class="list-group-item" ><h2>Koolipiim<span class="label label-info pull-right">0,20€</span><div class="clearfix"></div></h2></li></ul><ul class="diner-section-ul col-lg-6 col-md-6 col-sm-6 list-group"><li class="list-group-item" ><h2>Keefir<span class="label label-info pull-right">0,39€</span><div class="clearfix"></div></h2></li><li class="list-group-item" ><h2>Morss<span class="label label-info pull-right">0,25€</span><div class="clearfix"></div></h2></li></ul></div></div></div></div>
-        </div>
+
+
     </div>
-    </div>
-    </div>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
 </body>
 </html>
