@@ -1,8 +1,10 @@
+
 .container{
     background: white;
     width: 50%;
     margin: 0 auto;
     border: 1px solid black;
+
 
 
 }
@@ -24,3 +26,15 @@ a{
 h3{
 
 }
+
+.hind{
+
+    float: right;
+    font-size: 115%;
+    background-color: blue;
+    transform: rotate(5deg);
+    overflow:hidden;
+    margin-left: 1%;
+
+}
+
