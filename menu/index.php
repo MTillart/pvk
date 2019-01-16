@@ -38,7 +38,8 @@ $menu = array(
     ),
 
 );
-echo '<!DOCTYPE html>
+?>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -55,6 +56,8 @@ echo '<!DOCTYPE html>
             <div class="card-header">
                 <a href="#praed" data-toggle="collapse" class="card-link">Praed</a>
             </div>
+            <?php
+            echo'
             <div id="praed" class="collapse show">
                 <div class="card-body">
                     <ul class="panel-heading text-center list-group">
@@ -65,13 +68,15 @@ echo '<!DOCTYPE html>
                         <li id="praad4" class="list-group-item"><p class="mb-0">Praad 4 <span class="hind bg-success badge ">Hind</span><span class="hind badge">Hind</span><br><span class="small text-secondary">Millest toit koosneb</span></p></li>
                     </ul>
                 </div>
-            </div>
+            </div>';
+            ?>
         </div>
-
         <div class="card m-3">
             <div class="card-header">
                 <a href="#supp" data-toggle="collapse" class="card-link">Supid</a>
             </div>
+            <?php
+            echo'
             <div id="supp" class="collapse show">
                 <div class="card-body">
                     <ul class="panel-heading text-center list-group">
@@ -80,13 +85,16 @@ echo '<!DOCTYPE html>
                         <li id="supp3" class="list-group-item"><p class="mb-0">Supp 3<span class="hind bg-success badge ">Hind</span><span class="hind badge">Hind</span><br><span class="small text-secondary">Millest toit koosneb</span></p></li>
                     </ul></div>
                 </div>
-            </div>
+            </div>';
+            ?>
         </div>
         <div class="card m-3">
             <div class="card-header">
 
                 <a href="#magus" data-toggle="collapse" class="card-link">Magustoit</a>
             </div>
+            <?php
+            echo '
             <div id="magus" class="collapse show">
                 <div class="card-body">
                     <ul class="panel-heading text-center list-group">
@@ -95,12 +103,15 @@ echo '<!DOCTYPE html>
                         <li id="magus 3" class="list-group-item"><p class="mb-0">Magus 3<span class="hind bg-success badge ">Hind</span><span class="hind badge">Hind</span><br><span class="small text-secondary">Millest toit koosneb</span></p></li>
                     </ul>
                 </div>
-            </div>
+            </div>';
+            ?>
         </div>
         <div class="card m-3">
             <div class="card-header">
                 <a href="#jook" data-toggle="collapse" class="card-link">Joogid</a>
             </div>
+            <?php
+            echo '
             <div id="jook" class="collapse show">
                 <div class="card-body">
                     <ul class="panel-heading text-center list-group">
@@ -111,7 +122,8 @@ echo '<!DOCTYPE html>
                         <li id="jook5" class="list-group-item"><p class="mb-0">Jook 5<span class="hind badge">Hind</span><br><span class="small text-secondary">Millest toit koosneb</span></p></li>
                     </ul>
                 </div>
-            </div>
+            </div>';
+            ?>
         </div>
     </div>
 
