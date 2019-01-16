@@ -49,69 +49,71 @@ echo '<!DOCTYPE html>
     <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
+<div class="container-fluid">
     <div class="accordion" id="accordion">
-        <div class="card">
+        <div class="card m-3">
             <div class="card-header">
-                <a href="#collapseOne" data-toggle="collapse" class="card-link">Praed</a>
+                <a href="#praed" data-toggle="collapse" class="card-link">Praed</a>
             </div>
-            <div id="collapseOne" class="collapse show">
+            <div id="praed" class="collapse show">
                 <div class="card-body">
                     <ul class="panel-heading text-center list-group">
-                        <li id="praad1" class="list-group-item">Praad 1 <span class="hind bg-success badge ">Hind</span><span class="hind badge">Hind</span><br><p>Millest toit koosneb</p></li>
+                        <li id="praad1" class="list-group-item"><p class="mb-0">Praad 1 <span class="hind  bg-success badge ">Hind</span><span class="hind badge">Hind</span><br><span class="small text-secondary">Millest toit koosneb</span></p></li>
 
-                        <li id="praad2" class="list-group-item">Praad 2 <span class="hind bg-success badge ">Hind</span><span class="hind badge">Hind</span></li>
-                        <li id="praad3" class="list-group-item">Praad 3 <span class="hind bg-success badge ">Hind</span><span class="hind badge">Hind</span></li>
-                        <li id="praad4" class="list-group-item">Praad 4 <span class="hind bg-success badge ">Hind</span><span class="hind badge">Hind</span></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <div class="card">
-            <div class="card-header">
-                <a href="#collapseTwo" data-toggle="collapse" class="card-link">Supid</a>
-            </div>
-            <div id="collapseTwo" class="collapse show">
-                <div class="card-body">
-                    <ul class="panel-heading text-center list-group">
-                        <li id="supp1" class="list-group-item">Supp 1<span class="hind bg-success badge ">Hind</span><span class="hind badge">Hind</span></li>
-                        <li id="supp2" class="list-group-item">Supp 2<span class="hind bg-success badge ">Hind</span><span class="hind badge">Hind</span></li>
-                        <li id="supp3" class="list-group-item">Supp 3<span class="hind bg-success badge ">Hind</span><span class="hind badge">Hind</span></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <div class="card">
-            <div class="card-header">
-
-                <a href="#collapseThree" data-toggle="collapse" class="card-link">Magustoit</a>
-            </div>
-            <div id="collapseThree" class="collapse show">
-                <div class="card-body">
-                    <ul class="panel-heading text-center list-group">
-                        <li id="magus 1" class="list-group-item">Magus 1<span class="hind bg-success badge ">Hind</span><span class="hind badge">Hind</span></li>
-                        <li id="magus 2" class="list-group-item">Magus 2<span class="hind bg-success badge ">Hind</span><span class="hind badge">Hind</span></li>
-                        <li id="magus 3" class="list-group-item">Magus 3<span class="hind bg-success badge ">Hind</span><span class="hind badge">Hind</span></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <div class="card">
-            <div class="card-header">
-                <a href="#collapseFour" data-toggle="collapse" class="card-link">Joogid</a>
-            </div>
-            <div id="collapseFour" class="collapse show">
-                <div class="card-body">
-                    <ul class="panel-heading text-center list-group">
-                        <li id="jook1" class="list-group-item">Jook 1<span class="hind badge">Hind</span></li>
-                        <li id="jook2" class="list-group-item">Jook 2<span class="hind badge">Hind</span></li>
-                        <li id="jook3" class="list-group-item">Jook 3<span class="hind badge">Hind</span></li>
-                        <li id="jook4" class="list-group-item">Jook 4<span class="hind badge">Hind</span></li>
-                        <li id="jook5" class="list-group-item">Jook 5<span class="hind badge">Hind</span></li>
+                        <li id="praad2" class="list-group-item"><p class="mb-0">Praad 2 <span class="hind bg-success badge ">Hind</span><span class="hind badge">Hind</span><br><span class="small text-secondary">Millest toit koosneb</span></p></li>
+                        <li id="praad3" class="list-group-item"><p class="mb-0">Praad 3 <span class="hind bg-success badge ">Hind</span><span class="hind badge">Hind</span><br><span class="small text-secondary">Millest toit koosneb</span></p></li>
+                        <li id="praad4" class="list-group-item"><p class="mb-0">Praad 4 <span class="hind bg-success badge ">Hind</span><span class="hind badge">Hind</span><br><span class="small text-secondary">Millest toit koosneb</span></p></li>
                     </ul>
                 </div>
             </div>
         </div>
 
+        <div class="card m-3">
+            <div class="card-header">
+                <a href="#supp" data-toggle="collapse" class="card-link">Supid</a>
+            </div>
+            <div id="supp" class="collapse show">
+                <div class="card-body">
+                    <ul class="panel-heading text-center list-group">
+                        <li id="supp1" class="list-group-item"><p class="mb-0">Supp 1<span class="hind bg-success badge ">Hind</span><span class="hind badge">Hind</span><br><span class="small text-secondary">Millest toit koosneb</span></p></li>
+                        <li id="supp2" class="list-group-item"><p class="mb-0">Supp 2<span class="hind bg-success badge ">Hind</span><span class="hind badge">Hind</span><br><span class="small text-secondary">Millest toit koosneb</span></p></li>
+                        <li id="supp3" class="list-group-item"><p class="mb-0">Supp 3<span class="hind bg-success badge ">Hind</span><span class="hind badge">Hind</span><br><span class="small text-secondary">Millest toit koosneb</span></p></li>
+                    </ul></div>
+                </div>
+            </div>
+        </div>
+        <div class="card m-3">
+            <div class="card-header">
+
+                <a href="#magus" data-toggle="collapse" class="card-link">Magustoit</a>
+            </div>
+            <div id="magus" class="collapse show">
+                <div class="card-body">
+                    <ul class="panel-heading text-center list-group">
+                        <li id="magus 1" class="list-group-item"><p class="mb-0">Magus 1<span class="hind bg-success badge ">Hind</span><span class="hind badge">Hind</span><br><span class="small text-secondary">Millest toit koosneb</span></p></li>
+                        <li id="magus 2" class="list-group-item"><p class="mb-0">Magus 2<span class="hind bg-success badge ">Hind</span><span class="hind badge">Hind</span><br><span class="small text-secondary">Millest toit koosneb</span></p></li>
+                        <li id="magus 3" class="list-group-item"><p class="mb-0">Magus 3<span class="hind bg-success badge ">Hind</span><span class="hind badge">Hind</span><br><span class="small text-secondary">Millest toit koosneb</span></p></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="card m-3">
+            <div class="card-header">
+                <a href="#jook" data-toggle="collapse" class="card-link">Joogid</a>
+            </div>
+            <div id="jook" class="collapse show">
+                <div class="card-body">
+                    <ul class="panel-heading text-center list-group">
+                        <li id="jook1" class="list-group-item"><p class="mb-0">Jook 1<span class="hind badge">Hind</span><br><span class="small text-secondary">Millest toit koosneb</span></p></li>
+                        <li id="jook2" class="list-group-item"><p class="mb-0">Jook 2<span class="hind badge">Hind</span><br><span class="small text-secondary">Millest toit koosneb</span></p></li>
+                        <li id="jook3" class="list-group-item"><p class="mb-0">Jook 3<span class="hind badge">Hind</span><br><span class="small text-secondary">Millest toit koosneb</span></p></li>
+                        <li id="jook4" class="list-group-item"><p class="mb-0">Jook 4<span class="hind badge">Hind</span><br><span class="small text-secondary">Millest toit koosneb</span></p></li>
+                        <li id="jook5" class="list-group-item"><p class="mb-0">Jook 5<span class="hind badge">Hind</span><br><span class="small text-secondary">Millest toit koosneb</span></p></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
     </div>

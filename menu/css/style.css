@@ -1,4 +1,14 @@
+a {
+    text-decoration: none;
+}
 
+a:hover {
+    text-decoration: none !important;
+}
+
+ul {
+    list-style-type: none;
+}
 .container{
     background: white;
     width: 50%;
@@ -8,7 +18,7 @@
 
 
 }
-#collapseOne, #collapseTwo, #collapseThree, #collapseFour, .card-header{
+#praed, #supp, #magus, #jook, .card-header{
     width: 50%;
     align-self: center;
 }
