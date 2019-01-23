@@ -1,43 +1,45 @@
 <?php
-$menu = array(
+$praed = array(
     array(
-        'tuup' => "praed",
         'nimetus' => "Sealihapada ploomide ja aprikoosiga",
         'kirjeldus' =>"sealihapada, lisand, salat, leib",
         'hind' => 2.65
     ),
     array(
-        'tuup' => "praed",
         'nimetus' => "Praetud kanakints",
         'kirjeldus' =>"praetud kana, lisand, salat, leib",
-        'hind' => 2.50
-    ),
+        'hind' => 2.50));
+$supid = array(
     array(
-        'tuup' => "supid",
         'nimetus' => "Rassolnik",
         'kirjeldus' =>"supp, hapukoor, leib",
         'hind' => 1.10
     ),
     array(
-        'tuup' => "supid",
         'nimetus' => "Seljanka",
         'kirjeldus' =>"supp, hapukoor, leib",
         'hind' => 1.10
-    ),
+    ));
+$magustoit = array(
     array(
-        'tuup' => "magustoit",
         'nimetus' => "Kohupiima kreem",
         'kirjeldus' =>"kohupiim, moos",
         'hind' => 0.80
     ),
     array(
-        'tuup' => "magustoit",
-        'nimetus' => "Kama maius",
+        'nimetus' => "Kamamaius",
         'kirjeldus' =>"kama, kohupiim, moos",
         'hind' => 0.60
+    ));
+$jooks = array(
+    array(
+        'nimetus' => "Piim",
+        'hind' => 0.30
     ),
-
-);
+    array(
+        'nimetus' => "Morss",
+        'hind' => 0.20
+    ));
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -59,15 +61,14 @@ $menu = array(
             <?php
             echo'
             <div id="praed" class="collapse show">
-                <div class="card-body">
-                    <ul class="panel-heading text-center list-group">
-                        <li id="praad1" class="list-group-item"><p class="mb-0">Praad 1 <span class="hind  bg-success badge ">Hind</span><span class="hind badge">Hind</span><br><span class="small text-secondary">Millest toit koosneb</span></p></li>
+                <div class="card-body">';
+            foreach ($praed as $praad=>$info){
 
-                        <li id="praad2" class="list-group-item"><p class="mb-0">Praad 2 <span class="hind bg-success badge ">Hind</span><span class="hind badge">Hind</span><br><span class="small text-secondary">Millest toit koosneb</span></p></li>
-                        <li id="praad3" class="list-group-item"><p class="mb-0">Praad 3 <span class="hind bg-success badge ">Hind</span><span class="hind badge">Hind</span><br><span class="small text-secondary">Millest toit koosneb</span></p></li>
-                        <li id="praad4" class="list-group-item"><p class="mb-0">Praad 4 <span class="hind bg-success badge ">Hind</span><span class="hind badge">Hind</span><br><span class="small text-secondary">Millest toit koosneb</span></p></li>
-                    </ul>
-                </div>
+                    echo'<ul class="panel-heading text-center list-group">';
+                        echo'<li id="praad1" class="list-group-item"><p class="mb-0">'.$info['nimetus'].'<br>';
+                                            echo '</ul>';
+                }
+                echo '</div>';
             </div>';
             ?>
         </div>
