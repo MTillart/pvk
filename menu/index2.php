@@ -1,7 +1,11 @@
 <?php
 require_once 'lib/fnk.php';
-require_once 'menu.php';
+require_once 'db/andmed.php';
+require_once 'db/index.php';
+require_once 'db/conf.php';
+require_once 'db/db_fnk.php';
 pais();
+//echo $praed;
 ?>
 
 <div class="container-fluid text-center">
@@ -19,7 +23,7 @@ pais();
                     echo '<div id="praed" class="">';
                     foreach ($praed as $praad=>$info){
                         echo '<ul class="list-group">';
-                        echo '<p class="mb-0">'.$info['nimetus'].'<br>';
+                        echo '<p class="mb-0">'.$info['nimi'].'<br>';
                         echo '<span class="small text-secondary">'.$info['kirjeldus'].'</span><br>';
                         echo '<span class="badge badge-info">'.$info['hind'].'&euro;</span>';
                         echo '<span class= "badge badge-success">'.soodus($info['hind'], 15).'&euro;</span>';
