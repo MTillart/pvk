@@ -45,7 +45,7 @@ pais();
                     echo '<div id="supid" class="">';
                     foreach ($supid as $supp=>$info){
                         echo '<ul class="list-group">';
-                        echo '<p class="mb-0">'.$info['nimetus'].'<br>';
+                        echo '<p class="mb-0">'.$info['nimi'].'<br>';
                         echo '<span class="small text-secondary">'.$info['kirjeldus'].'</span><br>';
                         echo '<span class="badge badge-info">'.$info['hind'].'&euro;</span>';
                         echo '<span class= "badge badge-success">'.soodus($info['hind'], 15).'&euro;</span>';
@@ -68,8 +68,10 @@ pais();
                     echo '<div id="magustoit" class="">';
                     foreach ($magustoit as $magus=>$info){
                         echo '<ul class="list-group">';
-                        echo '<p class="mb-0">'.$info['nimetus'].'<br>';
+                        echo '<p class="mb-0">'.$info['nimi'].'<br>';
+                        echo '<span class="small text-secondary">'.$info['kirjeldus'].'</span><br>';
                         echo '<span class="badge badge-info">'.$info['hind'].'&euro;</span>';
+                        echo '<span class= "badge badge-success">'.soodus($info['hind'], 15).'&euro;</span>';
                         echo '</p>
                             </li>';
                         echo '</ul>';
@@ -90,7 +92,7 @@ pais();
                     echo '<div id="joogid" class="">';
                     foreach ($joogid as $jook=>$info){
                         echo '<ul class="list-group">';
-                        echo '<p class="mb-0">'.$info['nimetus'].'<br>';
+                        echo '<p class="mb-0">'.$info['nimi'].'<br>';
                         echo '<span class="badge badge-info">'.$info['hind'].'&euro;</span>';
                         echo '</p>
                             </li>';
